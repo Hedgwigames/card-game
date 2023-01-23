@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Sign in</title>
+    </head>
+    <body>
+        <div class="signIn" id="signIn">
+            <video autoplay muted loop id="backgVideo">
+                <source src="loginbackground.webm" type="video/webm">
+              </video>
+            <h1>Sign in to the game</h1>
+			<br><br>
+            <p class="userPassText">Username</p> <br>
+            <input type="string" class="signInBox" id="usernameField" style="border-radius: 20px;"><br><br>
+            <p class="userPassText">Password</p><br>
+            <input type="password" class="signInBox" id="passwordField" style="border-radius: 20px;">
+            <br><br>
+            <button onclick="checkSignIn()" class="signInButton" id="signInButton">Sign in</button>
+            <button onclick="resetFields()" class="signInButton" id="resetFields">Reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

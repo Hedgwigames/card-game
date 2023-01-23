@@ -1,0 +1,122 @@
+h1, p{
+    font-family: Verdana;
+    text-align: center;
+	margin: 0;
+}
+#signIn{    
+    background-color: black;
+    margin: 0px 400px 0px 400px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 10px;
+    border-radius: 50px;
+}
+.signinBox{
+    background-color: rgb(17, 16, 16);
+    border: 5px;
+    border-radius: 2px;
+    display:none;
+}
+.signInButton{
+    display: inline-block;
+    background-color:gray;
+    color: white;
+    width: 175px;
+    height: 30px;
+    border: 5px;
+    border-radius: 20px;
+	
+}
+.signInButton:hover{
+	background-color:#525555;
+}
+.signInButton:active{
+	background-color: gray;
+}
+#gamePage{
+	background-color:#00d000;
+	color: white;
+	width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.userPassText{
+    display: inline-block;
+
+}
+#backgVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+	filter: blur(25px)
+
+  }
+  
+#gameButton{
+    text-align: center;
+    margin-left: 45.8%;
+    font-size: 60px;
+    border-radius: 10px;
+    background-color: #107a2c;
+}
+.cardArea{
+    border-radius: 15px;
+    background-color: #107a2c;
+    margin-left: 39.1%;
+    height: 500px;
+    width: 400px;
+    border: 5px solid black;
+}
+h2{
+    font-size: 300px;
+    color:white;
+    text-align: center;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
+#explainTable {
+    position: fixed;
+    width: 20%;
+    height: 20%; 
+    top: 50px;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+    background-color: #00d000;
+    cursor: pointer;
+    font-family: Verdana;
+    font-size: 30px;
+    
+  }
+table, th, td {
+    border: 1px solid black;
+  }
+#currentNum{
+    margin-top: 0px;
+}
+#rules {
+    position: fixed;
+    width: 20%;
+    height: 20%; 
+    top: 50px;
+    left: 75%;
+    right: 0;
+    bottom: 0;
+    background-color: #00d000;
+    cursor: pointer;
+    font-family: Verdana;
+    font-size: 30px;
+    
+  }
